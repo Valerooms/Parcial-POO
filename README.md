@@ -26,3 +26,6 @@ IV. Conceptos
 * Es util aplicarla por que ayuda a aumentar la seguridad de la información y tambien reduce la imprevisibilidad
 
 *Por medio de los modificadores de acceso,  como los son los getters y los setters. 
+
+DISEÑO
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/78030533/110189362-d2f5a580-7dec-11eb-96fe-a5d90f54840d.png)
