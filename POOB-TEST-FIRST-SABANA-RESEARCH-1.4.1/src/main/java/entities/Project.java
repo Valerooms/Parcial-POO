@@ -41,7 +41,10 @@ public class Project {
      */
     public boolean isActive() {
         for(Iteration i: this.iterations)
-            countOpenActivities()
+        {
+            
+        }
+
 
     }
 
