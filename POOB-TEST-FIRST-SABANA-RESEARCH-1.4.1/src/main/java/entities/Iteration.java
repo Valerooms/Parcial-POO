@@ -31,5 +31,15 @@ public class Iteration {
         return cantidad;
 
     }
+    public int closedActivities(){
+        int cantidad =0;
+        for (int i=0; i<activities.size();i++)
+        {
+            activities.get(i).isActive() ;
+            cantidad++;
+        }
+        return activities.size()-cantidad;
+
+    }
 
 }
