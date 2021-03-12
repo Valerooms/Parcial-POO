@@ -1,6 +1,6 @@
 I. Memoria
 
-![Memoria](https://user-images.githubusercontent.com/78030533/110184986-35e04000-7ddf-11eb-89bc-6dff060326b0.png)
+![Untitled Diagram (3)](https://user-images.githubusercontent.com/78030533/111010130-946b6800-8363-11eb-98a8-9aa33036490a.png)
 
 
 
