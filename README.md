@@ -28,6 +28,7 @@ IV. Conceptos
 *Por medio de los modificadores de acceso,  como los son los getters y los setters. 
 
 DISEÑO Y BONO
-![Diagrama](https://user-images.githubusercontent.com/78030533/111010496-b9aca600-8364-11eb-924f-68cdb8000549.png)
+![Diseno y Bono](https://user-images.githubusercontent.com/78030533/111010555-e19c0980-8364-11eb-8209-42ad19a9daad.png)
+
 
 
