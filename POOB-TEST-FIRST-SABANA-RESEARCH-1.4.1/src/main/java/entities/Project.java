@@ -2,6 +2,7 @@ package entities;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class Project {
@@ -34,21 +35,40 @@ public class Project {
         this.dateEnd = dateEnd;
     }
 
+    public int countOpenActivities()
+    {
+        int result=0;
+        for (int i = 0; i < iterations.size(); i++) {
+
+            result= this.iterations.get(i).countOpenActivities();
+        }
+        return result;
+    }
+
+
     /**
      * Evaluate if a project is active.
      *
-     * @return false if the project has open activities or the dateEnd is before than the system date.
+     * que tenga actividades abiertas
+     * que la fecha de cierre sea mayor a la fecha actual
+     *
+     * @return false if the project has not open activities or the dateEnd is before than the system date.
      */
     public boolean isActive() {
+        boolean isACTIVE = true;
 
-        boolean isactive = false;
-        for(Iteration i: this.iterations)
-        {
-            if (Activity.isActive){
-
-            }
+        int poa = 0;
+        for(Iteration i : this.iterations){
+            poa += i.countOpenActivities();
         }
 
+        if(LocalDate.now().isAfter(dateEnd)){
+            isACTIVE = false;
+        }else{
+            isACTIVE = poa > 0;
+        }
+
+        return  isACTIVE;
 
     }
 

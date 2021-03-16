@@ -21,12 +21,14 @@ public class Iteration {
         this.activities.add(activity);
     }
 
-    public int countOpenActivities(){
+    public int countOpenActivities()
+    {
         int cantidad =0;
-        for (int i=0; i<activities.size();i++)
-        {
-            activities.get(i).isActive();
-             cantidad++;
+        for (Activity activity : this.activities) {
+            if (activity.isActive()) {
+                cantidad++;
+            }
+
         }
         return cantidad;
 
@@ -35,8 +37,8 @@ public class Iteration {
         int cantidad =0;
         for (int i=0; i<activities.size();i++)
         {
-            activities.get(i).isActive() ;
-            cantidad++;
+            if (activities.get(i).isActive() ){
+            cantidad++;}
         }
         return activities.size()-cantidad;
 

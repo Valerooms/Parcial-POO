@@ -6,6 +6,7 @@ public class Activity {
     public static final String CLOSED_STATE = "closed";
     public static final String PENDING_STATE = "pending";
     public static final String CANCELED_STATE = "canceled";
+    public static boolean isActive;
 
     private String name;
     private String state;
@@ -29,12 +30,12 @@ public class Activity {
 
     boolean isactive = false;
 
-    if (state == ACTIVE_STATE || state== PENDING_STATE)
+    if (state.equals(ACTIVE_STATE) || state.equals(PENDING_STATE))
     {
         isactive = true;
         return isactive;
     }
-    return false;
+    return isactive;
     }
     }
 

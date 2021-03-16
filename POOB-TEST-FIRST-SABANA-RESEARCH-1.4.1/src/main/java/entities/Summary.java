@@ -8,7 +8,6 @@ public class Summary {
     private int activeProjects;
     private LocalDate date;
 
-
     public int getActiveProjects() {
         return activeProjects;
     }
@@ -20,6 +19,7 @@ public class Summary {
     public Summary(LocalDate date, int activeProjects){
         this.date = date;
         this.activeProjects = activeProjects;
+
 
     }
 }

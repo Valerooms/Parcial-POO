@@ -17,11 +17,17 @@ public class Group {
         this.projects.add(plan);
     }
 
-    public int countActiveProjects() {
-        for (Project p : this.projects) {
-            isActive()
+    public int countActiveProjects()
+    {
+        int cantidad =0;
+        for (Project project : this.projects)
+        {
+            if (project.isActive())
+            {
+                cantidad++;
+            }
         }
-
-        }
+        return cantidad;
 
     }
+}
