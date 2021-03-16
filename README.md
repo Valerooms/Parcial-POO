@@ -1,6 +1,6 @@
 I. Memoria
 
-![Memoria](https://user-images.githubusercontent.com/78030533/110184986-35e04000-7ddf-11eb-89bc-6dff060326b0.png)
+![Untitled Diagram (3)](https://user-images.githubusercontent.com/78030533/111010130-946b6800-8363-11eb-98a8-9aa33036490a.png)
 
 
 
@@ -27,5 +27,8 @@ IV. Conceptos
 
 *Por medio de los modificadores de acceso,  como los son los getters y los setters. 
 
-DISEÑO
-![Untitled Diagram (1)](https://user-images.githubusercontent.com/78030533/110189362-d2f5a580-7dec-11eb-96fe-a5d90f54840d.png)
+DISEÑO Y BONO
+![Diseno bono](https://user-images.githubusercontent.com/78030533/111010666-2f187680-8365-11eb-9de6-5afa3c148362.png)
+
+
+
